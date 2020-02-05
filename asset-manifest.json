@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lamdaini/static/css/main.d1b05096.chunk.css",
+    "main.js": "/lamdaini/static/js/main.4e40b3e9.chunk.js",
+    "main.js.map": "/lamdaini/static/js/main.4e40b3e9.chunk.js.map",
+    "runtime-main.js": "/lamdaini/static/js/runtime-main.9276a73a.js",
+    "runtime-main.js.map": "/lamdaini/static/js/runtime-main.9276a73a.js.map",
+    "static/js/2.9793703b.chunk.js": "/lamdaini/static/js/2.9793703b.chunk.js",
+    "static/js/2.9793703b.chunk.js.map": "/lamdaini/static/js/2.9793703b.chunk.js.map",
+    "index.html": "/lamdaini/index.html",
+    "precache-manifest.4d319d82b0b3b7a6a39b1e8c79a1f59b.js": "/lamdaini/precache-manifest.4d319d82b0b3b7a6a39b1e8c79a1f59b.js",
+    "service-worker.js": "/lamdaini/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/lamdaini/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9793703b.chunk.js.LICENSE.txt": "/lamdaini/static/js/2.9793703b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/lamdaini/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9276a73a.js",
+    "static/js/2.9793703b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.4e40b3e9.chunk.js"
+  ]
+}
