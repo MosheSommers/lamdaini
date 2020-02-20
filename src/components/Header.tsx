@@ -10,6 +10,7 @@ export class Header extends React.Component{
                 <div className={S.headerText()}>Lamdaini Test</div>
                 <Link className={S.menuLink()} smooth={true} to="about">About</Link>
                 <Link className={S.menuLink()}  smooth={true}  to="contact">Contact</Link>
+                <div className={S.menuLink()}   onClick={ () => window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PQESWX2BA2Y66&currency_code=USD&source=url")}>Donate</div>
                 <Link className={S.backToTop()}  smooth={true}  to="top">Back to top</Link>
             </div>
         )
