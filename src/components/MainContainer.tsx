@@ -1,18 +1,21 @@
 import React from "react";
 import { css } from "emotion";
 
+
 export class MainContainer extends React.Component{
     render(){
-        return<div className={S.mainContainer()}>
+        return(
+            <div id='about' className={S.mainContainer()}>
                 <div className={S.containerText()}>MainContainer</div>
             </div>
+        )
     }
 }
 
 const S = {
     mainContainer:() => css`
-        height:80vw;
-        background-color:purple;
+        height:80vh;
+        background-color:hsla(300, 100%, 25%, 0.5);;
     `,
     containerText:() => css`
         font-size: 9em;
