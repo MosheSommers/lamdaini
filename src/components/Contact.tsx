@@ -10,7 +10,7 @@ export const Contact = () => (
 const S = {
     contactContainer:() => css`
         height:80vh;
-        background-color:#fff;
+        background-color:#bfced5;
     `,
     contactText:() => css`
         font-size: 6em;

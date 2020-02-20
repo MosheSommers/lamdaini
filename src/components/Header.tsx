@@ -23,19 +23,19 @@ const S = {
         font-size: 4em;
         text-align: left;
         margin: 5px;
-        color: #800080;
+        color: hsl(199, 21%, 79%);
         margin-right:auto;
     `,
     menuLink:()=>css`
         padding:10px;
         margin:auto 0;
         font-size:12px;
-        color: hsla(246, 57%, 76%, 1);
+        color: #bfced5;
         cursor:pointer;
         &:hover{
             background:hsl(231, 97%, 45%);
             font-size:12.5px;
-            color: hsla(246,57%,100%,1);
+            color: hsl(199, 21%, 90%);
         }
     `,
 }
