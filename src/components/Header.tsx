@@ -29,13 +29,14 @@ const S = {
         margin-right:auto;
     `,
     menuLink:()=>css`
-        padding:10px;
-        margin:auto 0;
+        padding:20px;
+        margin:auto 0.5px;
         font-size:12px;
         color: #bfced5;
         cursor:pointer;
+        background:hsl(231, 97%, 25%);
         &:hover{
-            background:hsl(231, 97%, 45%);
+            background:hsl(231, 97%, 15%);
             font-size:12.5px;
             color: hsl(199, 21%, 90%);
         }
@@ -47,5 +48,9 @@ const S = {
         color:#eee;
         background: #333;
         padding: 20px;
+        &:hover{
+            padding: 21px;
+            cursor: pointer;
+        }
     `,
 }

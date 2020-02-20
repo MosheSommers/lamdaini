@@ -10,7 +10,7 @@ export const Banner = () => (
 const S = {
     bannerContainer:() => css`
         height:30vh;
-        background-color:#bfced5;
+        background-color:hsla(199, 21%, 79%, 0.9);
     `,
     bannerText:() => css`
         font-size: 6em;

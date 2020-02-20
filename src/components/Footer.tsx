@@ -12,7 +12,6 @@ export class Footer extends React.Component{
 const S = {
     footer:()=> css`
         height:20vh;
-        background-color:hsla(0, 6%, 13%, 0.1);;
     `,
     footerText:() => css`
     font-size: 9em;

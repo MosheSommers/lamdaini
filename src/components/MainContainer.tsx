@@ -15,7 +15,6 @@ export class MainContainer extends React.Component{
 const S = {
     mainContainer:() => css`
         height:80vh;
-        background-color:hsla(300, 100%, 25%, 0.1);
     `,
     containerText:() => css`
         font-size: 9em;
