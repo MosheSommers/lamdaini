@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c6a183f84ce15fa71ffde60f04b8a48",
+    "revision": "ee4ea5d2bb403060ae48242350a53c04",
     "url": "/lamdaini/index.html"
   },
   {
-    "revision": "8de286f1f512994f6b60",
+    "revision": "10132d4d9a09826153cf",
     "url": "/lamdaini/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lamdaini/static/js/2.8b378a6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8de286f1f512994f6b60",
-    "url": "/lamdaini/static/js/main.26a2479b.chunk.js"
+    "revision": "10132d4d9a09826153cf",
+    "url": "/lamdaini/static/js/main.5443dcf1.chunk.js"
   },
   {
     "revision": "8701ba6e8d7c1844836b",
