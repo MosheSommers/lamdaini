@@ -1,14 +1,16 @@
 import React from 'react';
 import { css } from 'emotion';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export class Header extends React.Component{
 
     render(){
         return(
-            <div className={S.header()}>
+            <div id='top' className={S.header()}>
                 <div className={S.headerText()}>Lamdaini Test</div>
-                <div className={S.menuLink()} onClick={() => document.getElementById('about')?.scrollIntoView()}>About</div>
-                <div className={S.menuLink()} onClick={() => document.getElementById('contact')?.scrollIntoView()}>Contact</div>
+                <Link className={S.menuLink()} smooth={true} to="about">About</Link>
+                <Link className={S.menuLink()}  smooth={true}  to="contact">Contact</Link>
+                <Link className={S.backToTop()}  smooth={true}  to="top">Back to top</Link>
             </div>
         )
     }
@@ -37,5 +39,13 @@ const S = {
             font-size:12.5px;
             color: hsl(199, 21%, 90%);
         }
+    `,
+    backToTop:() => css`
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        color:#eee;
+        background: #333;
+        padding: 20px;
     `,
 }
