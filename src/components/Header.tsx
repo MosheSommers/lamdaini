@@ -6,7 +6,7 @@ export class Header extends React.Component{
     render(){
         return(
             <div className={S.header()}>
-                <div className={S.headerText()}>Lamdaini</div>
+                <div className={S.headerText()}>Lamdaini Test</div>
                 <div className={S.menuLink()} onClick={() => document.getElementById('about')?.scrollIntoView()}>About</div>
                 <div className={S.menuLink()} onClick={() => document.getElementById('contact')?.scrollIntoView()}>Contact</div>
             </div>
