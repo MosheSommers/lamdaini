@@ -4,6 +4,8 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { MainContainer } from './components/MainContainer';
 import { Background } from './components/Background';
+import { Contact } from './components/Contact';
+import { Banner } from './components/Banner';
 
 
 const App = () => {
@@ -11,7 +13,9 @@ const App = () => {
     <div className={`App`}>
       <Background />
       <Header />
+      <Banner />
       <MainContainer />
+      <Contact />
       <Footer />
     </div>
   );

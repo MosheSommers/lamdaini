@@ -3,7 +3,7 @@ import { css } from "emotion";
 
 export class Footer extends React.Component{
     render(){
-        return<div id='contact' className={S.footer()}>
+        return<div className={S.footer()}>
                     <div className={S.footerText()}>Footer</div>
                 </div>;
     }

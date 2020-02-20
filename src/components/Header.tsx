@@ -35,6 +35,7 @@ const S = {
         &:hover{
             background:hsl(231, 97%, 45%);
             font-size:12.5px;
+            color: hsla(246,57%,100%,1);
         }
     `,
 }
