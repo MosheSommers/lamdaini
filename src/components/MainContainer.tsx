@@ -14,12 +14,12 @@ export class MainContainer extends React.Component{
 
 const S = {
     mainContainer:() => css`
-        height:80vh;
+        max-height:50vh;
     `,
     containerText:() => css`
-        font-size: 9em;
+        font-size: 7em;
         margin: auto;
-        line-height: 80vw;
+        line-height: 50vh;
         color: #231f1f;
     `
 

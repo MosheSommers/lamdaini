@@ -3,16 +3,13 @@ import { css } from "emotion";
 
 export class Footer extends React.Component{
     render(){
-        return<div className={S.footer()}>
+        return<div>
                     <div className={S.footerText()}>Footer</div>
                 </div>;
     }
 }
 
 const S = {
-    footer:()=> css`
-        height:20vh;
-    `,
     footerText:() => css`
     font-size: 9em;
     margin: auto;

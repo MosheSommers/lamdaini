@@ -7,10 +7,11 @@ export class Header extends React.Component{
     render(){
         return(
             <div id='top' className={S.header()}>
-                <div className={S.headerText()}>Lamdaini Test</div>
+                <div className={S.headerText(false)}>Alef 2 Taf</div>
                 <Link className={S.menuLink()} smooth={true} to="about">About</Link>
                 <Link className={S.menuLink()}  smooth={true}  to="contact">Contact</Link>
                 <div className={S.menuLink()}   onClick={ () => window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PQESWX2BA2Y66&currency_code=USD&source=url")}>Donate</div>
+                <div className={S.headerText(true)}>א - ת</div>
                 <Link className={S.backToTop()}  smooth={true}  to="top">Back to top</Link>
             </div>
         )
@@ -22,12 +23,14 @@ const S = {
         display:flex;
         padding:10px;
         `,
-    headerText:() => css`
+    headerText:(right:boolean) => css`
         font-size: 4em;
         text-align: left;
         margin: 5px;
-        color: hsl(199, 21%, 79%);
-        margin-right:auto;
+        color: #231f1f;
+        margin-${right ? `left`: `right`}:auto;
+        min-width: 258px;
+        text-align: ${!right ? `left`: `right`};
     `,
     menuLink:()=>css`
         padding:20px;
